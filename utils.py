@@ -7,53 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.linear_model import LogisticRegression
 from lightgbm import LGBMClassifier
-import xgboost
-import dask
-import yellowbrick
-import vaex
-import tqdm
-import tpot
-import treeinterpreter
-import statsmodel
-import skrules
-import seaborn
-import skimage
-import scipy
-import pytest
-import optuna
-import keras
-import tensorflow
-import tabulate
-import spacy
-import pdpbox
-import pycaret
-import lightgbm
-import jupyterlab
-import kedro
-import interpret
-import imblearn
-import gensim
-import flask
-import feature_engine
-import eli5
-import dice_ml
-import dask
-import dask_ml
-import dash
-import catboost
-import alibi
-import altair
-import causalml
-import dataprep
-import skopt
-import bayes_opt
-import mlflow
-import autosklearn
-import dvc
-import sknetwork
-import networkx
-import torch
-import vecstack
+
 
 model_choices = ["Boosting", "Réseau de Neurones",
                  "Random Forest", "Régression Logistique", ]
